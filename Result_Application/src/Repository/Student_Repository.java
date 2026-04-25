@@ -146,46 +146,46 @@ public class Student_Repository {
 //		return s3;
 //	}
 
-	public Student FindByid(int id) {
-
-		Student s1 = getRamObject();
-		Student s2 = getshamObject();
-		Student s3 = getOmObject();
-		Student s4 = getAjayObject();
-		Student s5 = getAshishObject();
-		Student s6 = getAshokObject();
-		Student s7 = getIshaObject();
-		Student s8 = getNathObject();
-		Student s9 = getPavanObject();
-		Student s10 = getRohanObject();
-		Student s11 = getSurajObject();
-
-		if (s1.id == id) {
-			return s1;
-		} else if (s2.id == id) {
-			return s2;
-		} else if (s3.id == id) {
-			return s3;
-		} else if (s4.id == id) {
-			return s4;
-		} else if (s5.id == id) {
-			return s5;
-		} else if (s6.id == id) {
-			return s6;
-		} else if (s7.id == id) {
-			return s7;
-		} else if (s8.id == id) {
-			return s8;
-		} else if (s9.id == id) {
-			return s9;
-		} else if (s10.id == id) {
-			return s10;
-		} else if (s11.id == id) {
-			return s11;
-		} else {
-			System.out.println("Student not found");
-		}
-		return null;
-	}
+//	public Student FindByid(int id) {
+//
+//		Student s1 = getRamObject();
+//		Student s2 = getshamObject();
+//		Student s3 = getOmObject();
+//		Student s4 = getAjayObject();
+//		Student s5 = getAshishObject();
+//		Student s6 = getAshokObject();
+//		Student s7 = getIshaObject();
+//		Student s8 = getNathObject();
+//		Student s9 = getPavanObject();
+//		Student s10 = getRohanObject();
+//		Student s11 = getSurajObject();
+//
+//		if (s1.id == id) {
+//			return s1;
+//		} else if (s2.id == id) {
+//			return s2;
+//		} else if (s3.id == id) {
+//			return s3;
+//		} else if (s4.id == id) {
+//			return s4;
+//		} else if (s5.id == id) {
+//			return s5;
+//		} else if (s6.id == id) {
+//			return s6;
+//		} else if (s7.id == id) {
+//			return s7;
+//		} else if (s8.id == id) {
+//			return s8;
+//		} else if (s9.id == id) {
+//			return s9;
+//		} else if (s10.id == id) {
+//			return s10;
+//		} else if (s11.id == id) {
+//			return s11;
+//		} else {
+//			System.out.println("Student not found");
+//		}
+//		return null;
+//	}
 
 }
